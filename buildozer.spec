@@ -9,7 +9,7 @@ source.include_exts = py,png,jpg,kv,atlas,ttf
 version = 0.1
 
 # Pillow: generación de imágenes | pyjnius: acceso a APIs de Android
-requirements = python3,kivy,pillow,pyjnius
+requirements = python3,kivy,pillow,pyjnius,requests,urllib3,certifi,idna,charset-normalizer
 
 orientation = portrait
 fullscreen = 0
