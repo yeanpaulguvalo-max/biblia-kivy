@@ -13,7 +13,7 @@ jobs:
 
       - name: Compilar APK con Buildozer (imagen oficial)
         run: |
-          docker run --rm -v "$(pwd)":/home/user/hostcwd ghcr.io/kivy/buildozer:latest buildozer android debug
+          docker run --rm -v "$(pwd)":/home/user/hostcwd ghcr.io/kivy/buildozer:latest android debug
 
       - name: Subir el APK generado
         uses: actions/upload-artifact@v4
