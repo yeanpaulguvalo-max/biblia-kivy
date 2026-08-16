@@ -23,6 +23,9 @@ android.ndk = 25b
 android.archs = arm64-v8a
 android.accept_sdk_license = True
 
+# Fija python-for-android a una versión anterior al bug de charset_normalizer 3.5.1
+p4a.branch = v2024.01.21
+
 [buildozer]
 log_level = 2
 warn_on_root = 1
